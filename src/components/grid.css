@@ -1,0 +1,43 @@
+/* =============================
+   LUXURY GOLD ANIMATED GRID
+   ============================= */
+
+.gold-grid {
+  position: absolute;
+  inset: 0;
+  background:
+    /* خطوط عمودية */
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 215, 0, 0.12) 0px,
+      rgba(255, 215, 0, 0.12) 1px,
+      transparent 1px,
+      transparent 55px
+    ),
+    /* خطوط أفقية */
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 215, 0, 0.12) 0px,
+      rgba(255, 215, 0, 0.12) 1px,
+      transparent 1px,
+      transparent 55px
+    ),
+    /* خلفية سوداء فاخرة */
+    #000;
+
+  animation: gridMove 14s linear infinite;
+  opacity: 0.16;
+}
+
+/* حركة الشبكة */
+@keyframes gridMove {
+  0% {
+    transform: scale(1.05) translate(0px, 0px);
+  }
+  50% {
+    transform: scale(1.15) translate(35px, 20px);
+  }
+  100% {
+    transform: scale(1.08) translate(-20px, -15px);
+  }
+}
