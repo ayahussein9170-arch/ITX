@@ -23,9 +23,9 @@ export default function Hero() {
 
         <div className="flex-1 flex justify-center md:justify-end">
           <Image
-            src="/Group.png"
-            width={430}
-            height={430}
+            src="/Group.svg"
+            width={300}
+            height={300}
             alt="Hero"
             className="rounded-2xl shadow-2xl"
           />
