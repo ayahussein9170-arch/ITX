@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative w-full py-28 mt-20 overflow-hidden bg-black">
+    <section className="relative w-full py-28  overflow-hidden bg-black">
 
       {/* شبكة ذهبية متحركة */}
       <div className="gold-grid absolute inset-0 pointer-events-none z-0"></div>

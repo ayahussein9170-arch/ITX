@@ -7,11 +7,18 @@ export default function ReachSection() {
       <div className="container mx-auto px-6 text-center">
 
         {/* العنوان الرئيسي */}
-        <h2 className="text-4xl font-bold text-yellow-400 mb-6">
+        <h2 
+          className="text-4xl font-bold text-yellow-400 mb-6"
+          data-aos="fade-up"
+        >
           أينما كنت… نصل إليك
         </h2>
 
-        <p className="text-gray-300 max-w-2xl mx-auto mb-12 text-lg leading-relaxed">
+        <p 
+          className="text-gray-300 max-w-2xl mx-auto mb-12 text-lg leading-relaxed"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
           لأننا نؤمن بأن التعلم لا يحدّه مكان ولا زمان، يوفر ITX CENTER
           خدمات تعليمية مرنة تشمل الأونلاين والقاعات التعليمية المخصصة،
           لضمان تجربة تعلم مريحة ومتكاملة لجميع الأعمار.
@@ -21,7 +28,11 @@ export default function ReachSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
 
           {/* بطاقة 1 */}
-          <div className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition"
+          >
             <FaGlobe className="text-yellow-400 text-5xl mx-auto mb-4" />
             <h3 className="text-2xl text-yellow-400 mb-3 font-semibold">خدمات أونلاين</h3>
             <p className="leading-relaxed text-gray-300">
@@ -30,7 +41,11 @@ export default function ReachSection() {
           </div>
 
           {/* بطاقة 2 */}
-          <div className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition"
+          >
             <FaHome className="text-yellow-400 text-5xl mx-auto mb-4" />
             <h3 className="text-2xl text-yellow-400 mb-3 font-semibold">تعلّم وأنت في بيتك</h3>
             <p className="leading-relaxed text-gray-300">
@@ -39,7 +54,11 @@ export default function ReachSection() {
           </div>
 
           {/* بطاقة 3 */}
-          <div className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition"
+          >
             <FaChild className="text-yellow-400 text-5xl mx-auto mb-4" />
             <h3 className="text-2xl text-yellow-400 mb-3 font-semibold">برامج مخصصة للأطفال</h3>
             <p className="leading-relaxed text-gray-300">
@@ -47,8 +66,12 @@ export default function ReachSection() {
             </p>
           </div>
 
-          {/* بطاقة إضافية للأطفال */}
-          <div className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition md:col-span-2 lg:col-span-1">
+          {/* بطاقة إضافية */}
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            className="bg-gray-900 p-8 rounded-2xl border border-yellow-500/20 shadow-lg hover:scale-105 transition md:col-span-2 lg:col-span-1"
+          >
             <FaChalkboardTeacher className="text-yellow-400 text-5xl mx-auto mb-4" />
             <h3 className="text-2xl text-yellow-400 mb-3 font-semibold">تعليم لغات للأطفال</h3>
             <p className="leading-relaxed text-gray-300">
