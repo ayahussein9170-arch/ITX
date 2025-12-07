@@ -22,9 +22,7 @@ export default function Footer() {
           <p className="flex items-start gap-2 leading-relaxed">
             <FaMapMarkerAlt className="text-yellow-400 mt-1" />
             <span>
-              الأربيـــويه – أربع شــوارع  
-              <br /> قبل شارع جامع البشير  
-              <br /> مقابل معهد إعداد المدرسين
+             القامشلي - أربوية - أربع شوارع - قبل جامع البشير - مقابل معهد إعداد المدرسين (مدرسة تشرين سابقًا)
             </span>
           </p>
 

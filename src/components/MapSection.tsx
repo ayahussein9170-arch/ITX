@@ -15,9 +15,7 @@ export default function MapOnly() {
         data-aos="fade-up"
       >
         <h3 className="text-xl md:text-xl font-bold text-white leading-relaxed">
-          الأربيـــويه – أربع شــوارع 
-          قبل شارع جامع البشير 
-          مقابل معهد إعداد المدرسين
+          االقامشلي - أربوية - أربع شوارع - قبل جامع البشير - مقابل معهد إعداد المدرسين (مدرسة تشرين سابقًا)
         </h3>
       </div>
 
